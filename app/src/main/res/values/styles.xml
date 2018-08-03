@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Empty View Style -->
+    <style name="empty_view_titles">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:padding">@dimen/small_margin</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- DetailsActivity Styles -->
+    <style name="details_original_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/original_title_font_color</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="poster_image_details">
+        <item name="android:layout_marginTop">@dimen/small_margin</item>
+        <item name="android:layout_width">@dimen/poster_width_details</item>
+        <item name="android:layout_height">@dimen/poster_height_details</item>
+        <item name="android:layout_marginEnd">@dimen/normal_margin</item>
+        <item name="android:contentDescription">@string/content_description</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="primary_text_details">
+        <item name="android:layout_marginTop">@dimen/small_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/empty_title_font_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondary_text_details">
+        <item name="android:layout_marginTop">@dimen/small_margin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="date_rate_primary_text_details" parent="primary_text_details">
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginTop">@dimen/small_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/empty_title_font_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="date_rate_secondary_text_details" parent="secondary_text_details">
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginTop">@dimen/small_margin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <!-- Reviews style in DetailsActivity -->
+    <style name="review_primary_text">
+        <item name="android:layout_marginEnd">@dimen/mini_margin</item>
+        <item name="android:layout_marginStart">@dimen/mini_margin</item>
+        <item name="android:layout_marginTop">@dimen/mini_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/empty_title_font_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="review_secondary_text">
+        <item name="android:layout_marginEnd">@dimen/mini_margin</item>
+        <item name="android:layout_marginStart">@dimen/mini_margin</item>
+        <item name="android:layout_marginTop">@dimen/mini_margin</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

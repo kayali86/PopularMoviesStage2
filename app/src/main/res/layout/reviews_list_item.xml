@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/small_margin"
+    android:background="@drawable/review_background"
+    android:padding="@dimen/normal_margin">
+    <TextView
+        android:id="@+id/tv_review_author_label"
+        style="@style/review_primary_text"
+        android:layout_width="@dimen/no_margin"
+        android:layout_height="wrap_content"
+        android:text="@string/review_author_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_review_author"
+        style="@style/review_secondary_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review_author_label"
+        tools:text="An author" />
+    <TextView
+        android:id="@+id/tv_review_content_label"
+        style="@style/review_primary_text"
+        android:layout_marginTop="@dimen/small_margin"
+        android:text="@string/review_content_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review_author" />
+    <TextView
+        android:id="@+id/tv_review_content"
+        style="@style/review_secondary_text"
+        android:layout_marginTop="@dimen/mini_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review_content_label"
+        tools:text="Content" />
+</android.support.constraint.ConstraintLayout>
+

@@ -1,0 +1,49 @@
+<resources>
+    <!-- App and Activities titles -->
+    <string name="app_name">Popular Movies Stage 2</string>
+    <string name="main_activity_title">Popular Movies</string>
+    <string name="details_activity_title">Movie Details</string>
+    <string name="settings_fragment_title">Settings</string>
+    <!-- MainActivity Titles -->
+    <string name="action_refresh">Refresh</string>
+    <string name="content_description">Image</string>
+    <!-- Empty View Titles -->
+    <string name="empty_view_title_text">You do not have any Movie</string>
+    <string name="empty_view_subtitle_text">An error has occurred.\n\n
+    In offline mode you can see only your favorite Movies by selecting FAVORITES from settings menu.</string>
+    <!-- DetailsActivity Titles -->
+    <string name="release_date">Release Date: </string>
+    <string name="vote_average">Vote Average: </string>
+    <string name="plot_synopsis">Plot Synopsis: </string>
+    <string name="trailers_label">Trailers: </string>
+    <string name="reviews_label">Reviews: </string>
+    <string name="action_favorite">Favorite</string>
+    <string name="review_author_label">Review Author: </string>
+    <string name="review_content_label">Review: </string>
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_sort_by_label">Sort By</string>
+    <string name="settings_sort_by_key" translatable="false">sort_by</string>
+    <string name="settings_sort_by_default" translatable="false">@string/settings_sort_by_most_popular_value</string>
+    <!-- Label for order-by most popular -->
+    <string name="settings_sort_by_most_popular_label">Most Popular</string>
+    <string name="settings_sort_by_most_popular_value" translatable="false">movie/popular</string>
+    <!-- Label for order-by highest rated-->
+    <string name="settings_sort_by_highest_rated_label">Highest Rated</string>
+    <string name="settings_sort_by_highest_rated_value" translatable="false">movie/top_rated</string>
+    <!-- Label for order-by favorites-->
+    <string name="settings_sort_by_favorites_label">Favorites</string>
+    <string name="settings_sort_by_favorites_value" translatable="false">favorites</string>
+    <!-- Remove from favorites Dialog messages -->
+    <string name="delete_movie_confirm_dialog_msg">Do you want to remove this Movie from favorites?</string>
+    <string name="delete_movie_confirm_dialog_delete">Delete</string>
+    <string name="delete_movie_confirm_dialog_back">Back</string>
+    <!-- Error messages -->
+    <string name="details_error_loading_data">Error loading data</string>
+    <string name="no_data_found_message">No data found</string>
+    <string name="cannot_retrieve_trailer_videos">You can\'t show Trailers in Offline Mode!</string>
+    <string name="cannot_retrieve_reviews">Cannot retrieve review\'s data!</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="offline_mode_message">You can\'t see movie\'s trailers and poster in Offline mode!</string>
+    <string name="movie_added">Movie added to favorites!</string>
+    <string name="movie_removed">Movie removed from favorites!</string>
+</resources>
