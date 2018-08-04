@@ -254,7 +254,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 }
                 if (insertedMovieId != 0 && insertedReviewsCount != 0) {
                     isFavorite = true;
-                    showToastMessage(getString(R.string.movie_added));
                 }
             }
 
